@@ -9,7 +9,7 @@ st.write("Input a research topic below to command an autonomous crew to investig
 
 # User Input API Keys inside the Web App Sidebar
 with st.sidebar:
-    st.header("Configuration")
+    st.header("Please fill those fields first")
     openai_key = st.text_input("OpenAI API Key", type="password")
     serper_key = st.text_input("Serper API Key", type="password")
     st.markdown("--- ")
